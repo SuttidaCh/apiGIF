@@ -1,23 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img
+      src="https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif"
+      class="rounded-circle"
+      width="17%"
+    />
+    <p></p>
+    <giphy />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Giphy from "./components/Giphy.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Giphy,
+  },
+};
 </script>
 
 <style>
 #app {
+  background-image: url(https://rawpixel-live.imgix.net/collection/cover/99bf1f74fb0cfc223e186b946c7135dd_cover.png?auto=&bg=transparent&con=3&cs=srgb&dpr=1&fit=clip&fm=png&h=1200&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=1200&s=79575b05cb7a0c3f94e7fde28060a873);
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
