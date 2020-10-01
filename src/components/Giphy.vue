@@ -19,7 +19,7 @@
         <b-card
           v-for="data in resultData"
           :key="data.id"
-          style="max-width: 30rem"
+          style="max-width: 360"
           :header="data.title"
           header-bg-variant="dark"
           header-text-variant="white"

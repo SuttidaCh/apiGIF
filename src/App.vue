@@ -3,7 +3,7 @@
     <img
       src="https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif"
       class="rounded-circle"
-      width="17%"
+      width="240"
     />
     <p></p>
     <giphy />
